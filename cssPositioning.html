@@ -7,6 +7,7 @@
     <style>
         main {
             border: 1px solid black;
+            height: 8000px;
         }
         div {
             background-color: cadetblue;
@@ -21,13 +22,18 @@
             top: -100px;
             left: 400px;
         }
+        .fixedPositioning{
+            position: fixed;
+            top: -10px;
+            left: 10px;
+        }
     </style>
 </head>
 <body>
     <main>
         <div>1</div>
         <div class="relativePositioning">2</div>
-        <div>3</div>
+        <div class="fixedPositioning">3</div>
         <div>4</div>
         <div>5</div>
     </main>
