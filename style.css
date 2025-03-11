@@ -1,0 +1,23 @@
+
+div {
+    background-color: black;
+    color: whitesmoke;
+}
+.negative {
+    background-color: black;
+    color: whitesmoke;
+}
+.positive {
+    background-color: #ff7961;
+    color: whitesmoke;
+}
+.huge {
+    font-size: xx-large;
+}
+#firstName {
+    font-weight: bold;
+    font-size: large;
+}
+img[src="https://media.giphy.com/media/Z890hxb6fSrbG/giphy.gif"] {
+    border-radius: 50%;
+}
